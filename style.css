@@ -21,6 +21,7 @@
 
 }
 
+
 body 
 {
     font-family: 'Inter', sans-serif;
@@ -36,8 +37,13 @@ body
 /* header startes here  */
 .header{
     padding: 15px ;
-    height: 60px;
+    height: 80px;
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 
