@@ -459,35 +459,44 @@ body
 
 
 }
-.teams_icons1 {    /* display: none; */
+.teams_icons1 {
+    display: none;
     position: absolute;
-    top: 2309px;
-    left: 198px;
+    position: absolute;
+    top: 299%;
+    left: 14%;
     z-index: 2;
     transition: display 0.5s ease-in;
-   
-
+    z-index: 2;
+    transition: display 0.5s ease-in;
 }
-.teams_icons2{
-    /* display: none; */
+
+.teams_icons2 {
+    display: none;
     position: absolute;
-    top: 2309px;
-    left: 606px;
+    top: 299%;
+    left: 50%; 
+    transform: translateX(-50%); 
     z-index: 2;
     transition: display 0.3s;
-   
-
 }
 
 .teams_icons3 {
-    /* display: none; */
+    display: none;
     position: absolute;
-    top: 2309px;
-    left: 1015px;
+    top: 299%;
+    left: 86%; 
+    transform: translateX(-100%);
     z-index: 2;
     transition: display 0.3s;
-   
+}
 
+@media screen and (max-width: 768px) {
+    .teams_icons1,
+    .teams_icons2,
+    .teams_icons3 {
+        top: 299%; 
+    }
 }
 
 
