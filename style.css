@@ -459,10 +459,9 @@ body
 
 
 }
-.teams_icons1 {
-    display: none;
+.teams_icons1 {    /* display: none; */
     position: absolute;
-    top: 2359px;
+    top: 2309px;
     left: 198px;
     z-index: 2;
     transition: display 0.5s ease-in;
@@ -470,10 +469,10 @@ body
 
 }
 .teams_icons2{
-    display: none;
+    /* display: none; */
     position: absolute;
-    top: 2359px;
-    left: 599px;
+    top: 2309px;
+    left: 606px;
     z-index: 2;
     transition: display 0.3s;
    
@@ -481,10 +480,10 @@ body
 }
 
 .teams_icons3 {
-    display: none;
+    /* display: none; */
     position: absolute;
-    top: 2359px;
-    left: 997px;
+    top: 2309px;
+    left: 1015px;
     z-index: 2;
     transition: display 0.3s;
    
